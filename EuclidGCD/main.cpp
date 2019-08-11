@@ -7,7 +7,7 @@ int main()
     printf("GCD(%d, %d) = %d\n", a, b, gcd(a, b));
     a = 2260, b = 816;
     printf("GCD(%d, %d) = %d\n", a, b, gcd(a, b));
-    getchar();
+    int n= getchar();
     return 0;
 }
 int gcd(int a, int b)
