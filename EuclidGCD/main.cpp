@@ -10,7 +10,7 @@ int main()
     int n= getchar();
     return n;
 }
-//Recursive version
+//Recursive version2
 int gcd(int a, int b)
 {
     if (b == 0)
