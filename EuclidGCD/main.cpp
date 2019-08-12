@@ -10,6 +10,7 @@ int main()
     int n= getchar();
     return n;
 }
+//Recursive
 int gcd(int a, int b)
 {
     if (b == 0)
