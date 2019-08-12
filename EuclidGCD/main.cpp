@@ -1,4 +1,4 @@
-// 求两数最大公约数的Euclid算法
+//求两数最大公约数的Euclid算法
 #include <stdio.h>
 int gcd(int a, int b);
 int main()
@@ -8,7 +8,7 @@ int main()
     a = 2260, b = 816;
     printf("GCD(%d, %d) = %d\n", a, b, gcd(a, b));
     int n= getchar();
-    return 0;
+    return n;
 }
 int gcd(int a, int b)
 {
